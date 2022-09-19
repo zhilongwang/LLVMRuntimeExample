@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vagrant/DFGPLUS/llvmpass/dynamic_rt/runtime.cpp
+iostream
+-
+map
+-
+stdint.h
+-
+stdlib.h
+-
+
